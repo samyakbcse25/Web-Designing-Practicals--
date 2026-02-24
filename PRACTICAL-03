@@ -1,0 +1,25 @@
+<html>
+<title>practical 3</title>
+<body bgcolor="yellow"></body>
+<h1>Rajtilak Tembhe</h1>
+<h3>CM25106</h3>
+	<ol>
+	<li>ABC</li>
+	<li>XYZ</li>
+	<li>PQR</li>
+	</ol>
+	<ul>
+	<li>ABC</li>
+	<li>XYZ</li>
+	<li>PQR</li>
+	</ul>
+	<dl>
+        <dt>
+        <dd> smart </dd>
+        <dd> good </dd>
+	<dd> good in study </dd>
+	</dt>
+	</dl>
+	<a href="practical 3.html">Click here</a>
+	<img src="C:\Users\DELL\Downloads\71rFy1uRMoL.png" width="250" height="350">
+</html>
