@@ -1,107 +1,61 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>My Timetable</title>
-    <style>
-        body {
-            background-color: yellow;
-            text-align: center;
-        }
-        table {
-            margin: 0 auto; /* Centers the table */
-            border-collapse: collapse; /* Optional: makes the table look cleaner */
-        }
-        th, td {
-            padding: 10px;
-            text-align: center; /* Centers the text inside cells */
-        }
-    </style>
-</head>
-<body>
+<html>
+<title>Time Table</title>
+<body bgcolor="yellow"></body>
+<table border = "3">
+	<h1>TIME_TABLE</h1>
+	<tr>
+<th>Day and Time</th>
+<th>7 to 8</th>
+<th>8 to 9</th>
+<th>9 to 10</th>
+<th>10 to 12:30</th>
+</tr>
 
-    <h1>My Timetable</h1>
-    <table border="1">
-        <tr>
-            <th>Time</th>
-            <th>MONDAY</th>
-            <th>TUESDAY</th>
-            <th>Wednesday</th>
-            <th>Thursday</th>
-            <th>Friday</th>
-            <th>Saturday</th>
-        </tr>
-        <!-- First 3 lectures -->
-        <tr>
-            <td>10:30 - 11:30</td>
-            <td>APL(J1)</td>
-            <td>ICLA</td>
-            <td>IKS</td>
-            <td>EGDL</td>
-            <td>ICLA</td>
-            <td>EGD</td>
-        </tr>
-        <tr>
-            <td>11:30 - 12:30</td>
-            <td>APL(J2)</td>
-            <td>AP</td>
-            <td>WDL</td>
-            <td>EGDL</td>
-            <td>EGDL</td>
-            <td>EGD</td>
-        </tr>
-        <tr>
-            <td>12:30 - 1:30</td>
-            <td>LLC</td>
-            <td>LLC</td>
-            <td>WDL</td>
-            <td>ICLA</td>
-            <td>EGDL</td>
-            <td>SELF LEARNING</td>
-        </tr>
+<tr>
+<th> Monday> </th>
+<td> SMP </td>
+<td> chem </td>
+<td rowspan = "6">Dinner</td>
+<td> Gaming </td>
+</tr>
 
-        <!-- BREAK row -->
-        <tr>
-            <td><strong>1:30 - 2:30</strong></td>
-            <td><strong>BREAK</strong></td>
-            <td><strong>BREAK</strong></td>
-            <td><strong>BREAK</strong></td>
-            <td><strong>BREAK</strong></td>
-            <td><strong>BREAK</strong></td>
-            <td><strong>BREAK</strong></td>
-        </tr>
+<tr>
+<th>Tuesday</th>
+<td>chem</td>
+<td> maths</td>
+<td> SMP </td>
+</tr>
 
-        <!-- After BREAK, 2 more lectures -->
-        <tr>
-            <td>2:30 - 3:30</td>
-            <td>ICLA</td>
-            <td>WDL</td>
-            <td>AP</td>
-            <td>APL(J2)</td>
-            <td>SMP</td>
-            <td>SMP</td>
-        </tr>
-        <tr>
-            <td>3:30 - 4:30</td>
-            <td>SMPL</td>
-            <td>WDL</td>
-            <td>ICLA</td>
-            <td>APL(J2)</td>
-            <td>IKS</td>
-            <td>MAKEUP CLASS</td>
-        </tr>
-        <tr>
-            <td>3:30 - 4:30</td>
-            <td>SMPL</td>
-            <td>SPORTS</td>
-            <td>CLUB HOUR / NPTEL</td>
-            <td>LLC</td>
-            <td>TG</td>
-            <td>MAKEUP CLASS</td>
-        </tr>
-    </table>
+<tr>
+<th> Wednesday </th>
+<td> Maths </td>
+<td> EE </td>
+<td> SMP </td>
+</tr>
 
-    <p><strong>Rajtilak Tembhe</strong></p>
-	<p><strong>CM25106</strong></p>
+<tr>
+<th> Thursday </th>
+<td> EE </td>
+<td> Maths </td>
+<td> SMP </td>
+</tr>
 
+<tr>
+<th> friday </th>
+<td> Assignment </td>
+<td> Maths </td>
+<td> SMP </td>
+</tr>
+
+<tr>
+<th> Saturday </th>
+<td> Brunch </td>
+<td> Gaming </td>
+<td> Maths </td>
+</tr>
+
+</table>
+<h2> Rajtilak Tembhe</h2>
+<h2> CM25106 </h2>
 </body>
-</html>
+	</html>
